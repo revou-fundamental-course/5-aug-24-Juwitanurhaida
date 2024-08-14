@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator BMI</title>
+    <link rel="stylesheet" href=" \Documents\HTML LEARNING\BMI Calculator\style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="calculator">
+            <h2>Kalkulator BMI</h2>
+            <p>Berat badan ideal adalah impian semua orang. 
+                Tidak hanya memiliki bentuk tubuh yang menunjang penampilan, berat badan ideal juga menandakan kondisi tubuh yang sehat. 
+                Bagaimana denganmu?  🤗 </p>
+            <p><b>Yuk, hitung sekarang di kalkulator BMI ! 😀</b></p>
+            <form>
+                <div class="form-group">
+                    <label>Jenis Kelamin :</label>
+                    <input type="radio" name="gender" value="Pria" checked> Pria 👨
+                    <input type="radio" name="gender" value="Wanita"> Wanita 👩
+                </div>
+                <div class="form-group">
+                    <label>Berat Badan (kg)</label>
+                    <input type="number" id="weight" placeholder="Masukkan berat badan">
+                </div>
+                <div class="form-group">
+                    <label>Usia (tahun)</label>
+                    <input type="number" id="age" placeholder="Masukkan usia">
+                </div>
+                <div class="form-group">
+                    <label>Tinggi Badan (cm)</label>
+                    <input type="number" id="height" placeholder="Masukkan tinggi badan">
+                </div>
+                <div class="button-group">
+                    <button type="button" onclick="calculateBMI()">Hitung BMI</button>
+                    <button type="reset">Reset</button>
+                </div>
+            </form>
+            <div class="features">
+                <h3>Keunggulan fitur 😊: </h3>
+                <ul>
+                    <li>1. Menghitung berat badan</li>
+                    <li>2. Menentukan kategori berat badan ideal atau tidak</li>
+                    <li>3. Mempersiapkan program penurunan berat badan</li>
+                </ul>
+            </div>
+        </div>
+        <div class="result">
+            <h2>Hasil</h2>
+            <p class="bmi-category"></p>
+            <p class="bmi-value" style="font-size:large;">Hasil kategori BMI kamu akan muncul disini 😱 🤗</p>
+            <p class="bmi-advice"></p>
+            <button class="download-btn">Download Hasil BMI</button>
+            <br><br>
+            <div class="advice">
+                <p>Hasil BMI diantara 18.5 dan 24.9 adalah berat badan ideal.</p>
+                <form style="border: 1px; padding: 12px; background-color:lightblue;">
+                    <h2>Perhatian:</h2>
+                    <p>BMI tidak sepenuhnya mewakili diagnosis menyeluruh dari kesehatan tubuh dan resiko penyakit seseorang.</p>
+                    <p>Anda perlu berkonsultasi lebih lanjut mengenai resiko dan kekhawatiran anda mengenai berat badan anda</p>
+                    <button>Ahli Gizi Via Aplikasi</button>
+                    <p>Atau kamu juga bisa registrasi sekarang!</p>
+                    <button>Registrasi Online Ahli Gizi</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="D:\Documents\HTML LEARNING\BMI Calculator\script.js"></script>
+</body>
+</html>

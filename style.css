@@ -1,0 +1,98 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.calculator, .result {
+    background-color: white;
+    border: 2px solid cadetblue;
+    padding: 20px;
+    border-radius: 10px;
+    width: 45%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.result {
+    background-color: aliceblue;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: cadetblue;
+}
+
+.form-group input {
+    width: calc(100% - 10px);
+    padding: 8px;
+    margin-right: 10px;
+    box-sizing: border-box;
+    border: 1px solid cadetblue;
+}
+
+.button-group {
+    text-align: right;
+}
+
+.button-group button {
+    padding: 10px 20px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.features {
+    margin-top: 20px;
+}
+
+.features h3 {
+    color: cadetblue;
+    margin-bottom: 10px;
+}
+
+.features ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.features ul li {
+    margin-bottom: 10px;
+}
+
+.bmi-value {
+    font-size: 2em;
+    color: cadetblue;
+    font-weight: bold;
+}
+
+.advice {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.advice p {
+    margin-bottom: 15px;
+}
+
+.advice button, .download-btn {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.advice button:hover, .download-btn:hover {
+    background-color: #0056b3;
+}
+
+.download-btn {
+    margin-top: 20px;
+    text-decoration: none;
+    display: inline-block;
+}
